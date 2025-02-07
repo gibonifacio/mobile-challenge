@@ -13,3 +13,18 @@ import CoreData
 public class Currency: NSManagedObject {
 
 }
+
+extension Currency {
+
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Currency> {
+        return NSFetchRequest<Currency>(entityName: "Currency")
+    }
+
+    @NSManaged public var key: String?
+    @NSManaged public var value: String?
+
+}
+
+extension Currency : Identifiable {
+
+}

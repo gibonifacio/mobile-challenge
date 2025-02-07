@@ -56,108 +56,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B656C447-4A3B-4B65-A209-4D8D94855127"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MobileChallenge/ViewModel/ConversionViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "convertValueAccordingToCurrency(conversionResponse:valueToConvert:currencySource:currencyDestination:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B656C447-4A3B-4B65-A209-4D8D94855127 - e397a32cad594628"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(value: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "B656C447-4A3B-4B65-A209-4D8D94855127 - e397a32cad594628"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(value: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "248">
-               </Location>
-               <Location
-                  uuid = "B656C447-4A3B-4B65-A209-4D8D94855127 - e397a32cad594628"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(value: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "236">
-               </Location>
-               <Location
-                  uuid = "B656C447-4A3B-4B65-A209-4D8D94855127 - 25084b1035142eea"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(valueToConvert: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "236">
-               </Location>
-               <Location
-                  uuid = "B656C447-4A3B-4B65-A209-4D8D94855127 - 25084b1035142eea"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(valueToConvert: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "284">
-               </Location>
-               <Location
-                  uuid = "B656C447-4A3B-4B65-A209-4D8D94855127 - 33ae500fec3c5aa7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.convertValueAccordingToCurrency(conversionResponse: Swift.Optional&lt;MobileChallenge.ConversionResponse&gt;, valueToConvert: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "276">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -170,8 +78,8 @@
             filePath = "MobileChallenge/ViewModel/ConversionViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "convertValueAccordingToCurrency(conversionResponse:valueToConvert:currencySource:currencyDestination:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -186,87 +94,10 @@
             filePath = "MobileChallenge/ViewModel/ConversionViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "convertValueAccordingToCurrency(conversionResponse:valueToConvert:currencySource:currencyDestination:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1FD319D2-ED6C-4786-B67F-81C5183F4B9D - e397a32cad59489b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(value: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "1008">
-               </Location>
-               <Location
-                  uuid = "1FD319D2-ED6C-4786-B67F-81C5183F4B9D - 25084b1035142059"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(valueToConvert: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "1008">
-               </Location>
-               <Location
-                  uuid = "1FD319D2-ED6C-4786-B67F-81C5183F4B9D - 25084b1035142059"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(valueToConvert: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "1000">
-               </Location>
-               <Location
-                  uuid = "1FD319D2-ED6C-4786-B67F-81C5183F4B9D - 25084b1035142059"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.converterMoeda(valueToConvert: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "1032">
-               </Location>
-               <Location
-                  uuid = "1FD319D2-ED6C-4786-B67F-81C5183F4B9D - 33ae500fec3c5452"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MobileChallenge.ConversionViewModel.convertValueAccordingToCurrency(conversionResponse: Swift.Optional&lt;MobileChallenge.ConversionResponse&gt;, valueToConvert: Swift.String, currencySource: Swift.String, currencyDestination: Swift.String) -&gt; Swift.Double"
-                  moduleName = "MobileChallenge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "972">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -279,8 +110,8 @@
             filePath = "MobileChallenge/ViewModel/ConversionViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "convertValueAccordingToCurrency(conversionResponse:valueToConvert:currencySource:currencyDestination:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -367,22 +198,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CF532AFC-2312-4B63-9650-668092A77D58"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MobileChallenge/Service/NetworkMonitor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "checkConnection()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "9232D418-AED7-41A2-BA54-D1515CB746EF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -390,8 +205,8 @@
             filePath = "MobileChallenge/ViewModel/CurrencyViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "getCurrencyData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -406,8 +221,8 @@
             filePath = "MobileChallenge/ViewModel/CurrencyViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "getCurrencyData()"
             landmarkType = "7">
             <Locations>
@@ -469,10 +284,42 @@
             filePath = "MobileChallenge/ViewModel/CurrencyViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "getCurrencyData()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5283EC41-8D1D-46C4-8AAE-CA8EA840FD6F - 4b00b2efa5a2570"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MobileChallenge.CurrencyViewModel.getCurrencyData() async throws -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/CurrencyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "5283EC41-8D1D-46C4-8AAE-CA8EA840FD6F - a9ec4a1580b1695f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MobileChallenge.CurrencyViewModel.getCurrencyData() async throws -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/CurrencyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "520">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -485,8 +332,8 @@
             filePath = "MobileChallenge/ViewModel/CurrencyViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "getCurrencyData()"
             landmarkType = "7">
             <Locations>
@@ -565,7 +412,287 @@
                   endingLineNumber = "25"
                   offsetFromSymbolStart = "60">
                </Location>
+               <Location
+                  uuid = "3582D86F-49A8-417B-A18E-7AB01807E665 - a9ec4a1580b16891"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MobileChallenge.CurrencyViewModel.getCurrencyData() async throws -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/CurrencyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "3582D86F-49A8-417B-A18E-7AB01807E665 - 9492bc58b09fbb33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for MobileChallenge.CurrencyViewModel.getCurrencyData() async throws -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/CurrencyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "3582D86F-49A8-417B-A18E-7AB01807E665 - dd188910a72fac93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for MobileChallenge.CurrencyViewModel.getCurrencyData() async throws -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/CurrencyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "3582D86F-49A8-417B-A18E-7AB01807E665 - 34fee89dd85b1292"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for MobileChallenge.CurrencyViewModel.getCurrencyData() async throws -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/CurrencyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "3582D86F-49A8-417B-A18E-7AB01807E665 - 34fee89dd85b1292"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for MobileChallenge.CurrencyViewModel.getCurrencyData() async throws -&gt; Swift.Array&lt;(Swift.String, Swift.String)&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/CurrencyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "68">
+               </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EE1215C-7DFF-443E-9E4D-4B8E8E78F5EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileChallenge/ViewModel/ConversionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getConversionsData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7EE1215C-7DFF-443E-9E4D-4B8E8E78F5EA - ebcbdea893558165"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobileChallenge.ConversionViewModel.getConversionsData() async throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.Double&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "7EE1215C-7DFF-443E-9E4D-4B8E8E78F5EA - 6084d2a0dddab1a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MobileChallenge.ConversionViewModel.getConversionsData() async throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.Double&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "7EE1215C-7DFF-443E-9E4D-4B8E8E78F5EA - ebcbdea893558165"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobileChallenge.ConversionViewModel.getConversionsData() async throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.Double&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "7EE1215C-7DFF-443E-9E4D-4B8E8E78F5EA - 6084d2a0dddab1a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MobileChallenge.ConversionViewModel.getConversionsData() async throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.Double&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2217B435-9768-4F34-8211-502D566211FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileChallenge/View/ConversionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "fetchConversionData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2217B435-9768-4F34-8211-502D566211FD - dab6f86e53ea16b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MobileChallenge.ConversionViewController.fetchConversionData() async -&gt; ()"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/View/ConversionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "2217B435-9768-4F34-8211-502D566211FD - 6009f00a8bb3f473"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobileChallenge.ConversionViewController.fetchConversionData() async -&gt; ()"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/View/ConversionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "2217B435-9768-4F34-8211-502D566211FD - f76c849975f85b68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MobileChallenge.ConversionViewController.fetchConversionData() async -&gt; ()"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/View/ConversionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65473D35-AA6A-49F5-B793-C23001E5EEBB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileChallenge/ViewModel/ConversionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getConversionsData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "65473D35-AA6A-49F5-B793-C23001E5EEBB - f516ee44473d7b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MobileChallenge.ConversionViewModel.getConversionsData() async throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.Double&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "65473D35-AA6A-49F5-B793-C23001E5EEBB - b681e23895ac0fd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Swift.Dictionary&lt;Swift.String, Swift.Double&gt;, MobileChallenge.Conversion) -&gt; () in MobileChallenge.ConversionViewModel.getConversionsData() async throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.Double&gt;"
+                  moduleName = "MobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/giovannabonifacho/academy/mobile-challenge/MobileChallenge/MobileChallenge/ViewModel/ConversionViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91C53F61-3B1F-4F91-87F5-AEEDCD0D09AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobileChallenge/Service/NetworkMonitor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "checkConnection()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

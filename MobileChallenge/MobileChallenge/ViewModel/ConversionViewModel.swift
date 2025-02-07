@@ -8,34 +8,59 @@
 import Foundation
 
 class ConversionViewModel {
-    var conversion: ConversionResponse?
+    var conversion: [String : Double]?
     let conversionManager: ConversionManager
+    let storage: ConversionStorage
+    let monitor: NetworkMonitor
 
-    init(conversionManager: ConversionManager) {
+    init(conversionManager: ConversionManager, storage: ConversionStorage, monitor: NetworkMonitor) {
         self.conversionManager = conversionManager
+        self.storage = storage
+        self.monitor = monitor
     }
     
-    func getConversionsData() async throws -> ConversionResponse {
-        conversion = try await conversionManager.fetchRequest()
-        return conversion ?? ConversionResponse(quotes: [:])
+    func getConversionsData() async throws -> [String : Double] {
+        let statusMonitor = try await monitor.checkConnection()
+        if statusMonitor == true {
+            let conversionResponse = try await conversionManager.fetchRequest()
+            if !UserDefaults.standard.bool(forKey: "conversion data salved") {
+                storage.saveConversion(conversionResponse: conversionResponse)
+                UserDefaults.standard.setValue(true, forKey: "conversion data salved")
+            }
+            conversion = conversionResponse.quotes
+            return conversion ?? [:]
+        } else {
+            let conversionStorage = storage.fetchConversionStorage()
+            let conversionDictionary = conversionStorage.reduce(into: [String : Double]()) { dict, i in
+                if let key = i.key {
+                    dict[key] = i.value
+                }
+            }
+            return conversionDictionary
+
+        }
     }
+                                                                  
+                                                               
     
+
+
     
-    func convertValueAccordingToCurrency(conversionResponse: ConversionResponse?, valueToConvert: String, currencySource: String, currencyDestination: String) -> Double {
+    func convertValueAccordingToCurrency(conversionResponse: [String : Double], valueToConvert: String, currencySource: String, currencyDestination: String) -> Double {
 
         var convertedValue: Double
-        var intermediateConversion: Double
+        var intermediateUSDConversion: Double
         let currencyPair = currencySource + currencyDestination
         let amountToConvert = Double(valueToConvert)
         
-        if let conversion = conversionResponse?.quotes {
-            for i in conversion {
+ 
+            for i in conversionResponse {
                 if !currencyPair.contains("USD") {
                     if i.key.contains(currencySource) {
-                        intermediateConversion = (amountToConvert ?? 0.0) / i.value
-                        for i in conversion {
+                        intermediateUSDConversion = (amountToConvert ?? 0.0) / i.value
+                        for i in conversionResponse {
                             if i.key.contains(currencyDestination) {
-                                convertedValue = intermediateConversion * i.value
+                                convertedValue = intermediateUSDConversion * i.value
                                 return convertedValue
                             }
                         }
@@ -47,7 +72,7 @@ class ConversionViewModel {
                 
                 
             }
-        }
+        
         
         return 0
 

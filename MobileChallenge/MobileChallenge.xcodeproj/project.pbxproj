@@ -40,6 +40,9 @@
 		FA5D07D52D558958008A424C /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D07D42D558958008A424C /* NetworkMonitor.swift */; };
 		FA5D07D82D558D62008A424C /* Currency+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D07D62D558D62008A424C /* Currency+CoreDataClass.swift */; };
 		FA5D07D92D558D62008A424C /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D07D72D558D62008A424C /* Currency+CoreDataProperties.swift */; };
+		FA5D2C542D5636DB00A59985 /* Conversion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D2C522D5636DB00A59985 /* Conversion+CoreDataClass.swift */; };
+		FA5D2C552D5636DB00A59985 /* Conversion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D2C532D5636DB00A59985 /* Conversion+CoreDataProperties.swift */; };
+		FA5D2C572D56371300A59985 /* ConversionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D2C562D56371300A59985 /* ConversionStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,9 @@
 		FA5D07D42D558958008A424C /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		FA5D07D62D558D62008A424C /* Currency+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FA5D07D72D558D62008A424C /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FA5D2C522D5636DB00A59985 /* Conversion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Conversion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FA5D2C532D5636DB00A59985 /* Conversion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Conversion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FA5D2C562D56371300A59985 /* ConversionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,12 +193,15 @@
 			isa = PBXGroup;
 			children = (
 				FA5D07CC2D5582E7008A424C /* Currency.xcdatamodeld */,
+				FA5D2C522D5636DB00A59985 /* Conversion+CoreDataClass.swift */,
+				FA5D2C532D5636DB00A59985 /* Conversion+CoreDataProperties.swift */,
 				FA5D07D62D558D62008A424C /* Currency+CoreDataClass.swift */,
 				FA5D07D72D558D62008A424C /* Currency+CoreDataProperties.swift */,
 				FA5D07982D52922D008A424C /* CurrencyResponse.swift */,
 				FA5D079A2D5292F3008A424C /* ConversionResponse.swift */,
 				FA5D07BA2D53E050008A424C /* CurrencyType.swift */,
 				FA5D07D22D558471008A424C /* CurrencyStorage.swift */,
+				FA5D2C562D56371300A59985 /* ConversionStorage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,9 +411,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5D07D92D558D62008A424C /* Currency+CoreDataProperties.swift in Sources */,
+				FA5D2C542D5636DB00A59985 /* Conversion+CoreDataClass.swift in Sources */,
 				FA5D07CE2D5582E7008A424C /* Currency.xcdatamodeld in Sources */,
 				FA5D07D52D558958008A424C /* NetworkMonitor.swift in Sources */,
 				FA5D07A22D5294BF008A424C /* ServiceError.swift in Sources */,
+				FA5D2C572D56371300A59985 /* ConversionStorage.swift in Sources */,
 				FA5D07AB2D529F73008A424C /* CurrencyViewModel.swift in Sources */,
 				FA5D07A52D529889008A424C /* CurrencyManager.swift in Sources */,
 				FA5D07B92D53D878008A424C /* CurrencyCellDelegate.swift in Sources */,
@@ -423,6 +434,7 @@
 				FA5D07BE2D555038008A424C /* MockCurrencyNetworkService.swift in Sources */,
 				FA5D07992D52922D008A424C /* CurrencyResponse.swift in Sources */,
 				FA5D079B2D5292F3008A424C /* ConversionResponse.swift in Sources */,
+				FA5D2C552D5636DB00A59985 /* Conversion+CoreDataProperties.swift in Sources */,
 				FA5D07C02D555155008A424C /* MockConversionNetworkService.swift in Sources */,
 				FA5D07B12D52A22B008A424C /* CurrencyTableViewCell.swift in Sources */,
 				FA5D07A02D52945E008A424C /* NetworkService.swift in Sources */,

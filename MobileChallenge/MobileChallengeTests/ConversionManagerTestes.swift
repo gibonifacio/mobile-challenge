@@ -19,8 +19,10 @@ class ConversionManagerTestes: XCTestCase {
         try await super.setUp()
         
         let mockNetworkService = MockConversionNetworkService()
+        let monitor = NetworkMonitor()
+        let conversionStorage = ConversionStorage()
         conversionManager = ConversionManager(conversionNetworkService: mockNetworkService)
-        conversionViewModel = ConversionViewModel(conversionManager: conversionManager)
+        conversionViewModel = ConversionViewModel(conversionManager: conversionManager, storage: conversionStorage, monitor: monitor)
     }
     
     func testFetchCurrencyData() async {
@@ -45,9 +47,9 @@ class ConversionManagerTestes: XCTestCase {
         let expectation = self.expectation(description: "converted currency")
         do {
             let data = try await conversionManager.fetchRequest()
-            let convertedCurrencyContainingUSD = conversionViewModel.convertValueAccordingToCurrency(conversionResponse: data, valueToConvert: "38", currencySource: "USD", currencyDestination: "BRL")
+            let convertedCurrencyContainingUSD = conversionViewModel.convertValueAccordingToCurrency(conversionResponse: data.quotes, valueToConvert: "38", currencySource: "USD", currencyDestination: "BRL")
             XCTAssertEqual(convertedCurrencyContainingUSD, 201.4)
-            let convertedCurrencyWithoutUSD = conversionViewModel.convertValueAccordingToCurrency(conversionResponse: data, valueToConvert: "38", currencySource: "EUR", currencyDestination: "BRL")
+            let convertedCurrencyWithoutUSD = conversionViewModel.convertValueAccordingToCurrency(conversionResponse: data.quotes, valueToConvert: "38", currencySource: "EUR", currencyDestination: "BRL")
             XCTAssertEqual(convertedCurrencyWithoutUSD, 251.75)
 
             expectation.fulfill()

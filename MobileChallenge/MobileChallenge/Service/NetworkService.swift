@@ -14,6 +14,9 @@ class NetworkService: NetworkServiceProtocol {
         guard let url = URL(string: urlString) else { throw ServiceError.invalidURL }
         
         do {
+            let config = URLSessionConfiguration.default
+            config.waitsForConnectivity = true
+
             let (data, response) = try await URLSession.shared.data(from: url)
             guard let response = response as? HTTPURLResponse, (200...299).contains(response.statusCode) else {
                 throw ServiceError.invalidResponse

@@ -21,7 +21,8 @@ class CurrencyViewModel {
     }
     
     func getCurrencyData() async throws -> [(String, String)] {
-        if monitor.checkConnection() {
+        let statusMonitor = try await monitor.checkConnection()
+        if statusMonitor == true {
             let currencyResponse = try await currencyManager.fetchRequest()
             currency = currencyResponse.currencies.map { ($0.key, $0.value) }
             if !UserDefaults.standard.bool(forKey: "currency data salved") {
@@ -36,7 +37,7 @@ class CurrencyViewModel {
             return currency ?? []
         }
     }
-//
+
     func filterCurrency(searchBarText: String) -> [(String, String)] {
         if searchBarText.isEmpty {
             if let currency = currency {

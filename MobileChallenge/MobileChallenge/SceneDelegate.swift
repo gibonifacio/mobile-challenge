@@ -23,12 +23,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         
         let networkService = NetworkService()
+        
         let currencyManager = CurrencyManager(currencyNetworkService: networkService)
-        let storage = CurrencyStorage()
-        let currencyViewModel = CurrencyViewModel(currencyManager: currencyManager, storage: storage, monitor: monitor)
+        let currencyStorage = CurrencyStorage()
+        let currencyViewModel = CurrencyViewModel(currencyManager: currencyManager, storage: currencyStorage, monitor: monitor)
         
         let conversionManager = ConversionManager(conversionNetworkService: networkService)
-        let conversionViewModel = ConversionViewModel(conversionManager: conversionManager)
+        let conversionStorage = ConversionStorage()
+        let conversionViewModel = ConversionViewModel(conversionManager: conversionManager, storage: conversionStorage, monitor: monitor)
+        
         window?.rootViewController = ConversionViewController(currencyViewModel: currencyViewModel, conversionViewModel: conversionViewModel)
         window?.makeKeyAndVisible()
     }
@@ -57,7 +60,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func sceneDidEnterBackground(_ scene: UIScene) {
         print("background")
-        let stat = monitor.checkConnection()
+//        let stat = monitor.checkConnection()
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.

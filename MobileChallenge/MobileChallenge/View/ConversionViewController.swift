@@ -93,14 +93,21 @@ class ConversionViewController: UIViewController, CurrencyCellDelegate, UITextFi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Task {
-            await fetchConversionData()
-        }
         self.view.backgroundColor = .white
         setElements()
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+
+        Task {
+            await fetchConversionData()
+
+        }
+        
+    }
+    
     
     
     func fetchConversionData() async {
@@ -205,7 +212,7 @@ class ConversionViewController: UIViewController, CurrencyCellDelegate, UITextFi
     }
     
     func convertValue() {
-        convertedValue = conversionViewModel.convertValueAccordingToCurrency(conversionResponse: conversionViewModel.conversion, valueToConvert: textField.text ?? "10", currencySource: currencySource, currencyDestination: currencyDestination)
+        convertedValue = conversionViewModel.convertValueAccordingToCurrency(conversionResponse: conversionViewModel.conversion ?? [:], valueToConvert: textField.text ?? "10", currencySource: currencySource, currencyDestination: currencyDestination)
     }
 
 }
