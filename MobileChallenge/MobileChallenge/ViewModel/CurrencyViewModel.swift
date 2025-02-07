@@ -27,7 +27,7 @@ class CurrencyViewModel {
     func filterCurrency(searchBarText: String) -> [(String, String)] {
         if searchBarText.isEmpty {
             if let currency = currency {
-                return currency
+                return currency.sorted {  $0.0 < $1.0  }
             }
         } else {
             let filteredCurrency = currency?.filter { (key,value) in
